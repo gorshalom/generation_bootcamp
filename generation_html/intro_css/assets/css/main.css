@@ -1,0 +1,64 @@
+/*Selectores
+*/
+
+/*selector universal*/
+*{
+    background-color: aquamarine;
+}
+
+
+/*selector de clase*/
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+
+/*
+selector de id
+*/
+
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+.color{
+    background-color: azure;
+}
+
+.color{
+    background-color: aqua;
+}
+
+.color{
+    background-color: cadetblue;
+}
+
+.color-texto{
+    color: rgb(186, 5, 62);
+}
+
+.forma{
+    width: auto;
+    height: auto;
+}
+
+.borde{
+    border-top: 3px solid green;
+    border-right:3px dashed red ;
+    border-bottom:3px solid blue ;
+    border-left:3px solid yellow ;
+    text-align: center;
+    
+}
+
+p{
+    font-family: cursive;
+    font-size: 40px;
+}

@@ -1,0 +1,17 @@
+#p1{
+    background-color: rgb(238, 130, 238);
+}
+#p2{
+    background-color: rgb(255, 129,62);
+    border: 1px solid rgb(179, 79, 25);
+    border-radius: 5px;
+}
+#p3{
+    border-left: 3px solid rgb(255, 0 , 128);
+    background-color: rgb(247, 245, 245);
+}
+#p4{
+    border-bottom: 1px solid rgb(255, 124, 181);
+    border-top: 1px solid rgb(255, 124, 181);
+    background-color: rgb(247, 245, 245);
+}
