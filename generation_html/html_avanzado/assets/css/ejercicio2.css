@@ -1,0 +1,32 @@
+*{
+    margin-left: 10px;
+    
+}
+body{
+    background-color: darkgreen;
+}
+.input{
+    border: 2px solid red;
+}
+
+.colortexto{
+    color: white;
+}
+
+label{
+    display: inline-block;
+    width: 60px;
+    padding-left: 30px;
+
+}
+.btn-enviar{
+    width: 120px;
+    
+}
+.raya{
+    width: 250px; 
+    margin-left :0;
+    border-bottom: dashed white;
+    margin-bottom: 10px;
+}
+

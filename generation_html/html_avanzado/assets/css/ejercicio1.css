@@ -1,0 +1,33 @@
+*{
+    background-color: aquamarine;
+}
+
+.centrado{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bgn-negro{
+    background-color: black;
+}
+
+.bgn-green{
+    background-color: chartreuse;
+}
+table,th,td{
+    border: 1px solid black;
+
+}
+.rojo{
+    color: red;
+}
+
+.bgn-naranja{
+    background-color: chocolate;
+}
+.negrita{
+    font-weight: bold;
+}
+.cursiva{
+
+}

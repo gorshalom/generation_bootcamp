@@ -1,0 +1,57 @@
+/*
+px:
+-fuente
+-tamaño del body
+*/
+
+/*
+Tamaños de pantalla:
+1200px - PC
+750px - Tablet
+450px - Celular
+*/
+
+/*
+Unidades de medida relativas
+%
+Rem = tamaño de px de nuestro navegador( generalmente 16px
+Em = tamaño de fuente del elemento padre
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0;
+}
+
+.forma{
+    width: 50%;
+    height: 200px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.color{
+    background-color: blue;
+    border: 5px solid red;
+}
+
+p{
+    padding:  20px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+a{
+    width: 50%;
+    padding: 10px;
+    border: 3px solid red;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
