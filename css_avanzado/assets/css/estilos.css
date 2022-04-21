@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+
+/* 
+bottom
+top
+left
+right
+
+
+*/
+
+h1{
+    position: relative;
+    top: 200px;
+
+}
+
+.div1{
+    background-color: aqua;
+    position: static;
+    bottom: 0;
+}
+.div2{
+    background-color: blueviolet;
+    position: relative;
+    bottom: 0;
+
+}
+
+.div3{
+    background-color: tomato;
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
