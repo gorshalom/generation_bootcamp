@@ -11,12 +11,35 @@
     object-position: center;
 } 
 
+.pantalla{
+    position: absolute;    
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 96px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cuadro{
+    background-color: rgba(0,0 ,0 , .4);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 50vw;
+
+}
+
 
 /* 
 Imagenes
 */
 .centrar{
     text-align: center;
+    
 }
 
 .img-card{
