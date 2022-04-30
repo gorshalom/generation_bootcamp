@@ -1,6 +1,9 @@
-//obtener el valor de un input
-let input = document.getElementById("fecha");
 
+
+//Mi solucion
+
+/* 
+let input = document.getElementById("fecha");
 
 input.addEventListener("change", function () {    
     let fecha = new Date();
@@ -26,8 +29,49 @@ input.addEventListener("change", function () {
 
     console.log(diferencia);   
 });
+ */
+
+//version 1 Jhon
+/* 
+const anioNacimiento= parseInt(prompt("Escribe tu año de nacimiento: "));
+const anioActual=2022;
+
+console.log(`Tienes `,anioActual-anioNacimiento,` años`);
+ */
+
+//version 2 jhon
+
+//pcion1
+/*
+const anioActual=2022;
+
+function calcularEdad(){
+    const anioNacimiento =parseInt( document.getElementById('anio').value);
+    console.log(`Tienes ${anioActual - anioNacimiento} años`);
+} */
+
+//opcion2
+/* const boton = document.getElementById("calcular");
+
+boton.addEventListener("click",()=>{
+    const anioNacimiento =parseInt( document.getElementById('anio').value);
+    console.log(`Tienes ${anioActual - anioNacimiento} años`);
+}) */
+
+//version 3 jhon
+
+const fecha= new Date();
+
+
+function mostrarDatos(){
+    const nacimiento= document.getElementById("anio").value;
+    const nacimientoDividido=nacimiento.split("-");
+    const anio=parseInt(nacimientoDividido[0]);
+    const mes=parseInt(nacimientoDividido[1]);
+    const dia=parseInt(nacimientoDividido[2]);
 
 
 
+}
 
 
